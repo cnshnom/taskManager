@@ -68,6 +68,10 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    airbrake (13.0.2)
+      airbrake-ruby (~> 6.0)
+    airbrake-ruby (6.1.0)
+      rbtree3 (~> 0.5)
     bindex (0.8.1)
     bootsnap (1.11.1)
       msgpack (~> 1.2)
@@ -165,6 +169,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    rbtree3 (0.7.0)
     regexp_parser (2.4.0)
     reline (0.3.1)
       io-console (~> 0.5)
@@ -214,6 +219,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  airbrake (~> 13.0, >= 13.0.2)
   bootsnap
   capybara
   debug
