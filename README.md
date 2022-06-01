@@ -12,7 +12,7 @@ In the future, a **user system** will be added, including **sign up, log in and 
     
 ## How to Install and Run the Project
 
-After clone the taskManager repositories, in terminal can run: 
+After clone the taskManager repository, in terminal can run: 
 ```
 rails server
 ```
